@@ -1,0 +1,860 @@
+@font-face {
+   font-family: Lepton;
+   src: local("HelveticaNeue"), local("Helvetica Neue"), local("Helvetica Neue"), local("Roboto"), local("Roboto"), local(Helvetica), local(Arial);
+}
+@font-face {
+   font-family: Lepton;
+   font-weight: bold;
+   src: local("HelveticaNeue-Bold"), local("Helvetica Neue Bold"), local("Helvetica-Bold"), local("Helvetica Bold"), local("Roboto Bold"), local("Roboto-Bold"), local("Arial-BoldMT"), local("Arial Bold");
+}
+
+/* MIXINS */
+@mixin absolutely {
+	position: absolute;
+}
+@mixin blackish {
+	color: rgba(67, 67, 67, 0.9);
+}
+@mixin block {
+	display: block
+}
+@mixin center {
+	text-align: center;
+}
+@mixin float {
+	float: left;
+}
+@mixin height {
+	height: 768px;
+}
+@mixin normal {
+	font-weight: normal;
+}
+@mixin rounded-corners ($radius: 4px) {
+  border-radius: $radius;
+}
+@mixin redgradient {
+	background-image: -webkit-linear-gradient(top, rgba(254, 2, 2, 0.9), rgba(193, 2, 2, 0.9));
+}
+@mixin redgradientover {
+	background-image: -webkit-linear-gradient(top, rgba(169, 0, 0, 0.9), rgba(166, 1, 1, 0.9));
+}
+@mixin silvergradient {
+	background-image: -webkit-radial-gradient(50% 50%, rgba(217, 217, 217, 0.9), rgba(248, 248, 248, 0.9));
+}
+@mixin textbase ($size: 14px) {
+	font-size: $size;
+	line-height: $size * 1.4;
+}
+@mixin upper {
+	text-transform: uppercase;
+}
+@mixin width {
+	width: 1024px;
+}
+
+/* VARIABLES */
+$blackish: rgba(67, 67, 67, 0.9);
+$gridUnit: 19.6px; /* .textbase size * golden ratio */
+$navborder: 2px solid rgba(224, 0, 0, 0.9);
+$red: rgba(255, 0, 0, 0.9);
+$white: rgba(255, 255, 255, 0.9);
+
+/* STYLES */
+body { 
+	background-image: -webkit-radial-gradient(50% 50%, rgba(217, 217, 217, 0.9), rgba(248, 248, 248, 0.9));
+	font-family: Lepton;
+	@include height; 
+	margin: 0;
+	@include textbase;
+	text-rendering: optimizeLegibility;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+	-webkit-touch-callout: none;
+	@include width; 
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}
+#body {
+	@include absolutely;
+	@include height; 
+	left: 0;
+	overflow: hidden;
+	top: 0;
+	z-index: 1;
+}
+.main {
+	height: 688px;
+	overflow: hidden;
+	@include width;
+	a {
+		@include blackish;
+	}
+	.button a {
+		color: $white;
+	}
+	.care {
+		clear: both;
+		margin: 0 auto;
+		padding-top: 155px;
+		width: 587px;
+	}	
+	.content {
+		@include absolutely;
+		background-color: $blackish;
+		@include block;
+		bottom: 60px;
+		@include center;
+		color: $white;
+		margin-left: 60px;
+		max-width: 482px;
+		padding: $gridUnit 39.2px;
+		@include rounded-corners;
+		z-index: 1;
+	}	
+	.altcontent {
+		@include absolutely;
+		background-color: $white;
+		@include block;
+		padding: 18px;
+		right: $gridUnit;
+		@include rounded-corners;
+		top: $gridUnit;
+		width: 376px;
+		.button {
+			@include float;
+			width: 134px;
+		}
+		.extrapadding {
+			width: 194px;
+		}
+		p {
+			background-color: $white;
+			@include blackish;
+			margin-bottom: $gridUnit;
+		}
+	}
+	.wider {	
+		@include center;
+		margin: 130px auto;
+		overflow: auto;
+		position: relative;
+		right: auto;
+		width: 490px;
+	}
+	.need, .work, .shop {
+		border-right: 10px solid rgba(255, 255, 255, 1);
+		@include float;
+		@include height;
+		width: 330px;
+		p {
+			@include absolutely;
+			background-color: $white;
+			@include blackish;
+			display: none;
+			font-size: 12px;
+			line-height: 16.8px;
+			margin: 468px $gridUnit $gridUnit $gridUnit;
+			padding: $gridUnit $gridUnit $gridUnit $gridUnit;
+			@include rounded-corners;
+			width: 250px;
+		}
+		.toggle {
+			background: url(../_img/buttonRedPlusMinus.png) no-repeat left top;
+			height: 38px;
+			left: 140px;
+			position: absolute;
+			text-indent: -1000px;
+			top: 345px;
+			width: 38px;
+		}
+		.on {
+			background: url(../_img/buttonRedPlusMinus.png) no-repeat left bottom;
+		}
+	}
+	.need {
+		background-image: url(../_img/sidebarNeed.jpg);	
+		height: 689px;
+	}
+	.work {
+		background-image: url(../_img/sidebarWork.jpg);
+		display: none;	
+		height: 689px;
+	}
+	.shop {
+		background-image: url(../_img/sidebarShop.jpg);	
+		display: none;
+		height: 689px;
+	}
+	.slide1, .slide2, .slide3, .slide4, .slide5 {
+		background-image: url(../_img/bgNeed.jpg);
+	}
+	.slide6, .slide7, .slide8, .slide9 {
+		background-image: url(../_img/bgResearch.jpg);
+	}
+	.slide10, .slide11, .slide12, .slide13, .slide14, .slide15, .slide16 {
+		background-image: url(../_img/bgSelect.jpg);
+	}
+	.slide17, .slide18 {
+		background-image: url(../_img/bgBuy.jpg);
+	}
+	.slide19 {
+		background-image: url(../_img/bgReceive.jpg);
+	}
+	.slide20, .slide21 {
+		background-image: url(../_img/bgUse.jpg);
+	}
+	.slide22, .slide23, .slide24, .slide25, .slide26, .slide27, .slide28 {
+		background-image: url(../_img/bgMaintain.jpg);
+	}
+	.slide29 {
+		background-image: url(../_img/bgRecommend.jpg);
+	}
+	.royalSlider {
+		@include float;
+		height: 688px;
+		overflow: hidden;
+		width: 684px;
+	}
+	.storyMapToggle {
+		@include absolutely;
+		left: 269px;
+		top: -34px;
+		.story, .map {
+			background-color: rgba(255, 255, 255, 0.45);
+			border-radius: 4px 4px 0 0;
+			@include center;
+			font-weight: bold;
+			margin-top: 90px;
+			padding: 5px 10px;
+			@include upper;
+			-webkit-transform: rotate(-90deg);
+			width: 84px;
+		}
+		.map {
+			margin-bottom: 100px;
+		}
+		.on {
+			background-color: white;
+		}
+	}
+}
+.index {
+	background-image: url(../_img/cityscape.jpg);
+}
+.indexDark {
+	background-image: url(../_img/cityscapeDark.jpg);
+}
+footer {
+	@include absolutely;
+	background: rgba(255, 0, 0, 1) url(../_img/footerLogo.png) no-repeat right bottom;
+	bottom: 0;
+	height: 80px;
+	-webkit-transform: translate3d(0, 0, 0);
+	@include width;
+	z-index: 2;
+	.button {
+		@include float;
+		margin: $gridUnit $gridUnit 0 $gridUnit;
+	}
+	.seek {
+		border: 2px solid $white;
+		border-radius: 20px;
+		@include float;
+		height: $gridUnit;
+		margin: 29px 0 0 $gridUnit;
+		text-indent: -9999px;
+		width: $gridUnit;
+	}
+}
+.footerSlider {
+	font-weight: bold;
+	width: 80%;
+}
+.footerTitle {
+	@include absolutely;
+	background-color: rgba(255, 0, 0, 1);
+	border-radius: 4px 4px 0 0;
+	border-left: $navborder;
+	border-top: $navborder;
+	border-right: $navborder;
+	@include center;
+	color: $white;
+	margin: -10px 0 0 400px;
+	padding: 18px 44px 0 44px;
+	@include upper;
+	width: 137px;
+}
+.storyNavigation {
+	background: $red url(../_img/footerNavArrowUp.png) no-repeat center 10px;
+	display: inline;
+	padding-top: $gridUnit;
+}
+.footerTitle > .close {
+	background: $red url(../_img/footerNavArrowDown.png) no-repeat center bottom; 
+	display: none;
+	padding-bottom: 10px;
+}
+nav, p {
+	-webkit-animation-delay: .1s;
+	-webkit-animation-duration: .01s;
+	-webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-transition: all .01s ease-in-out;
+}
+@-webkit-keyframes Ken-Burns-In {
+	0% { 
+		-webkit-transform: scale(1);
+	}
+	100% { 
+		-webkit-transform: scale(1.1);
+	}
+}
+@-webkit-keyframes Ken-Burns-Out {
+	0% { 
+		-webkit-transform: scale(1.1) 
+	}
+	100% { 
+		-webkit-transform: scale(1) 
+	}
+}
+.kenBurnsIn, .kenBurnsOut {
+	-webkit-animation-delay: .4s;
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-transform-origin: top right;
+    -webkit-transition: all 4s ease-in-out;
+    z-index: 100;
+}
+.kenBurnsIn {
+	-webkit-animation-name: Ken-Burns-In; 
+}
+.kenBurnsOut {
+	-webkit-animation-name: Ken-Burns-Out; 
+}
+nav {
+	display: none;
+	height: 237px;
+	margin-left: $gridUnit;
+	width: 100%;
+}
+dl {
+	background-color: $red;
+	color: $white;
+	@include float;
+	margin-top: 40px;
+	width: 33%;
+}
+dt {
+	background: url(../_img/footerArrow.png) no-repeat;
+	line-height: 22px;
+	margin-bottom: 13px;
+	padding-left: 32px;
+	@include upper;
+}
+dd {
+	border: $navborder;
+	font-weight: bold;
+	margin: 0 0 7px $gridUnit;
+	padding: 9px;
+	@include redgradient;
+	@include rounded-corners;
+	width: 180px;
+	a {
+		@include block;
+	}
+}
+.button {
+	border: $navborder;
+	@include center;
+	font-weight: bold;
+	padding: 10px 18px;
+	@include redgradient;
+	@include rounded-corners;
+	@include upper;
+}
+.marginright {
+	margin-right: $gridUnit;
+}
+.redgradientover {
+	@include redgradientover;
+}
+h2 {
+	@include blackish;
+	font-size: 15px;
+	margin-bottom: $gridUnit;
+	@include upper;
+	span {
+		@include normal;
+	}
+}
+.title {
+	@include center;
+	font-size: 17px;
+	margin: 69.6px auto $gridUnit auto;
+}
+.h2littleless {
+	margin: 39.2px 0 $gridUnit 0;
+}
+h3 {
+	@include center;
+	margin-bottom: 58.8px;
+	@include normal;
+}
+/*VALUE SECTION */
+.value {
+	@include blackish;
+	@include silvergradient;
+	.first {
+		margin-left: 120px;
+		span {
+			padding-top: 0!important;
+		}
+	}
+	.valuesquare {
+		background-image: -webkit-linear-gradient(top, rgba(246, 246, 246, 0.9), rgba(216, 216, 216, 0.9));
+		border: 2px solid rgba(218, 218, 218, 0.9);
+		margin-top: 30px;
+		@include rounded-corners;
+		@include float;
+		height: 150px;
+		width: 150px;
+		span {
+			@include block;
+			@include center;
+			margin: 0 auto;
+			@include normal;
+			padding-top: 9px;
+			@include upper;
+			width: 150px;
+			}
+		}
+	.on {
+		@include redgradient;
+		a {
+			color: $white;
+		}
+	}	
+	.on::after {
+		border: solid transparent;
+		border-top-color: rgba(193, 2, 2, 0.9);
+		border-width: 12px;
+		color: transparent;
+		content: "-";
+		left: 42%;
+		position: relative;
+		text-indent: -999px;
+		top: 34px;
+	}
+	.first::after {
+		top: 24px;
+	}
+	.math {
+		@include center;
+		@include float;
+		font-size: 50px;
+		margin-top: 92px;
+		width: 50px;
+	}	
+	h1 {
+		@include center;
+		font-size: 75px;
+		font-weight: lighter;
+		margin: 40px 0;
+	}
+	h3 {
+		color: rgba(193, 2, 2, 0.9);
+		font-size: $gridUnit;
+		font-weight: bold;
+		margin-bottom: 9.8px;
+		text-align: left;
+		@include upper;
+	}
+	h4 {
+		@include center;
+		margin: 13px 0 26px 0;
+		@include normal;
+	}
+	p {
+		background-color: transparent!important;
+		@include blackish;
+	}
+	ul {
+		padding-left: 18px;
+	}
+	.content {
+		bottom: 190px;
+	}	
+}
+/*LIFECYCLE SECTION */
+.lifecycle {
+	@include blackish;
+	@include silvergradient;
+	.diagram {
+		@include center;
+		@include float;
+		margin-top: 61px;
+		width: 676px;
+		.infinityButton {
+			@include absolutely;
+			@include float;
+			height: 38px;
+			width: 39px;
+			a span {
+				background: url(../_img/buttonGrayPlusMinus.png) no-repeat left top;
+				display: block;
+				height: 36px;
+				width: 36px;
+			}
+			.on {
+				background: url(../_img/buttonGrayPlusMinus.png) no-repeat left bottom;
+			}
+		}
+		.select {
+			left: 169px;
+		}
+		.buy {
+			left: 273px;
+		}
+		.recommend {
+			left: 445px;
+		}
+		.research {
+			left: 53px;
+			top: 393px;
+		}
+		.maintain {
+			right: 397px;
+			top: 335px;
+		}
+		.need {
+			background-image: none;
+			border-right: none;
+			left: 188px;
+			top: 493px;
+		}
+		.receive {
+			left: 375px;
+			top: 493px;
+		}
+		.use  {
+			left: 487px;
+			top: 493px;
+		}
+		.graphic {
+			margin: 35.8px;
+			max-width: 500px;
+		}
+	}
+	.diagramWider {
+		@include width;
+		.infinityButton {
+			@include absolutely;
+			@include float;
+			height: 38px;
+			width: 39px;
+			a span {
+				background: url(../_img/buttonGrayPlusMinus.png) no-repeat left top;
+				display: block;
+				height: 36px;
+				width: 36px;
+			}
+		}
+		.select {
+			left: 252px;
+		}
+		.buy {
+			left: 417px;
+		}
+		.recommend {
+			left: 696px;
+		}
+		.research {
+			left: 74px;
+			top: 432px;
+		}
+		.maintain {
+			right: 72px;
+			top: 338px;
+		}
+		.need {
+			background-image: none;
+			border-right: none;
+			left: 281px;
+			top: 581px;
+		}
+		.receive {
+			left: 580px;
+			top: 581px;
+		}
+		.use  {
+			left: 763px;
+			top: 581px;
+		}
+		.graphic {
+			margin: 35.8px;
+			max-width: 806px;
+		}
+	}
+	.sidebar {
+		@include float;
+		padding: 0 24px 0 0;
+		width: 324px;
+		h3 {
+			color: $red;
+			font-weight: bold;
+			margin: 0;
+			text-align: left;
+		}
+		p {
+			background-color: transparent;
+			@include blackish;
+			padding: 0 11px 0 0;
+			-webkit-hyphens: auto;
+		}
+	}
+	.details {
+		margin: $gridUnit 0;
+		padding-bottom: 9.4px;
+		.summary {
+			background: url(../_img/buttonGrayPlusMinusSmaller.png) no-repeat left top;
+			cursor: pointer;
+			font-weight: bold;
+			padding-left: 24.6px;
+			@include upper;
+		}
+		img {
+			display: none;
+		}
+		ul {
+			padding-left: 0;
+			li {
+				border-bottom: 1px solid $white;
+				line-height: 39.2px;
+				list-style-type: none;
+				padding-left: 20px;
+			}
+			.stripe {
+				background-color: rgba(217, 217, 217, 0.9);
+			}
+		}
+		img {
+			margin-top: 9.4px;
+		}
+	}
+	.product .summary {
+		background: url(../_img/buttonGrayPlusMinusSmaller.png) no-repeat left bottom;
+		color: $red;
+	}
+} 
+@-webkit-keyframes index {
+	0% {
+		background-position-y: 0%;
+	}
+	100% {
+		background-position-y: 100px;
+	}         
+}
+.move {
+	background: url(../_img/scape.jpg) no-repeat, url(../_img/move_bg.jpg) repeat-y;
+	-webkit-animation-delay: .8s;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: index;
+}
+.rsContent img {
+	max-height: 689px;
+}
+@-webkit-keyframes bloops {
+	0% { 
+		opacity: 0;
+	}
+	1% { 
+		opacity: 1;
+	}
+	4% { 
+		opacity: 1;
+	}
+	6% { 
+		opacity: 0;
+	}
+	100% { 
+		opacity: 0;
+	}
+}
+.bloop {
+	@include absolutely;
+	background-color: $white;
+	@include blackish;
+	font-size: 12px;
+	line-height: 16.8px;
+	opacity: 0;  
+	padding: 8px;
+	@include rounded-corners;
+	-webkit-animation-duration: 67.5s;
+	-webkit-animation-fill-mode: forwards; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: bloops; 
+	-webkit-hyphens: auto;
+	-webkit-transition: opacity 0 ease-in-out;
+	width: 200px;
+	img {
+		@include float;
+		margin: 4px 8px 0 0;
+	}
+	b {
+		@include float;
+	}
+}
+.bloop::after {
+	@include absolutely;
+	border: solid transparent;
+	border-top-color: $white;
+	border-width: 12px;
+	content: "";
+	left: 50%;
+	top: 100%;
+}
+.customerRedBorder, .acquisitionRedBorder, .retentionRedBorder, .efficiencyRedBorder {
+	@include absolutely;
+	border-bottom: 3px solid rgba(193, 2, 2, 0.9);
+	border-right: 3px solid rgba(193, 2, 2, 0.9);	
+	height: 154px;
+	top: 346px;
+}
+.customerRedBorder {
+	border-left: 3px solid rgba(193, 2, 2, 0.9);	
+	border-right: none;
+	left: 198px;
+	width: 127px;
+}
+.acquisitionRedBorder {
+	left: 357px;
+	width: 45px;
+}
+.retentionRedBorder {
+	left: 342px;
+	width: 264px;
+}
+.efficiencyRedBorder {
+	left: 344px;
+	width: 466px;
+}
+.storyButton {
+	@include absolutely;
+	@include center;
+	line-height: 15px;
+	padding: 10px 20px;
+	@include redgradient;
+	@include rounded-corners;
+	@include upper;
+	z-index: 10;
+	a {
+		color: $white;
+	}
+	b {
+		@include block;
+	}
+}
+.storyButton::after {
+	@include absolutely;
+	border: solid transparent;
+	border-top-color: rgba(193, 2, 2, 0.9);
+	border-width: 10px;
+	content: "";
+	left: 42%;
+	top: 100%;
+}
+.downtown {
+	left: 206px;
+	top: 307px;
+}
+.neighborhood {
+	left: 360px;
+	top: 445px;
+}
+.uptown {
+	left: 646px;
+	top: 335px;
+}
+@-webkit-keyframes instructions {
+	0% { 
+		opacity: 1;
+	}
+	50% { 
+		opacity: 1;
+	}
+	100% { 
+		opacity: 0;
+	}
+}
+.instructions {
+	@include absolutely;
+	background-color: $blackish;
+	color: $white;
+	padding: 10px;
+	right: 10px;
+	@include rounded-corners;
+	top: 10px;
+	-webkit-animation-duration: 4.8s;
+	-webkit-animation-fill-mode: forwards; 
+	-webkit-animation-name: instructions; 
+	-webkit-transition: opacity .25s ease-in-out;
+	z-index: 9;
+}
+h5 {
+	margin-bottom: 9.8px;
+	@include upper;
+}
+.dot {
+	@include absolutely;
+	background-color: rgba(193, 2, 2, 0.9);
+	border-radius: 5px;
+	height: 10px;
+	top: 496px;
+	width: 10px;
+}
+#play, #pause {
+	border-style: solid;
+	text-indent: -9999px;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#play {
+	border-color: transparent transparent transparent $white;
+	border-width: 8px 0 8px 12px;
+	height: 1px;
+}
+#pause {
+	border-color: transparent $white;
+	border-width: 0 4px 0;
+	height: 17px;
+	width: 4px;
+}
+a.refresh {
+    @include absolutely;
+    background-color: $red;
+    border: 1px solid $white;
+    bottom: 17px;
+    color: $white;
+    @include center;
+    display: none;
+    left: 30px;
+    padding: 0.5em 1em;
+    @include rounded-corners;
+    @include upper;
+    z-index: 9;
+}
+.update {
+    background-color: $red;
+    border: 1px solid $white;
+    border-radius: 1em;
+    color: $white;
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -$gridUnit;
+    width: $gridUnit;
+}
