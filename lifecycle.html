@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Oracle CX World</title>
+		<meta name="description" content="">
+		<meta name="author" content="Dale Cruse, for Kaon Interactive">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="css/html5-doctor-reset-stylesheet.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body onload='onLoad()'>
+		<div id="body" class="lifecycle" onload='onLoad()'>
+			<div class="main" style="text-align: center;">
+				<h2 class="title h2littleless"><span>The Customer Experience</span> Lifecycle</h2>
+				<h3>Discover the stages of the lifecycle.</h3>
+				<div class="diagramWider">
+					<div class="infinityButton select"><a href="value_select.html"><span></span></a></div>
+					<div class="infinityButton buy"><a href="value_buy.html"><span></span></a></div>
+					<div class="infinityButton recommend"><a href="value_recommend.html"><span></span></a></div>
+					<div class="infinityButton research"><a href="value_research.html"><span></span></a></div>
+					<div class="infinityButton maintain"><a href="value_maintain.html"><span></span></a></div>
+					<div class="infinityButton need"><a href="value_need.html"><span></span></a></div>
+					<div class="infinityButton receive"><a href="value_receive.html"><span></span></a></div>
+					<div class="infinityButton use"><a href="value_use.html"><span></span></a></div>
+					<img src="_img/infinity.png" alt="Buy" class="graphic">
+				</div>
+			</div>
+			<footer>
+				<div class="footerSlider">
+					<div class="button"><a href="equation.html">The Value Equation</a></div>
+					<div class="footerTitle">
+						<span class="storyNavigation">Story Navigation</span>
+						<span class="close">Close</span>
+					</div>
+					<nav>
+						<dl>
+							<dt>CX World</dt>
+							<dd><a href="index.html">Home</a></dd>
+						</dl>
+						<dl>
+							<dt>Oracle CX Story</dt>
+							<dd><a href="story.html">Watch the story unfold</a></dd>
+							<dd><a href="interact.html">Interact with the story</a></dd>
+						</dl>
+						<dl>
+							<dt>Oracle CX Value</dt>
+							<dd><a href="value.html">Overview</a></dd>
+							<dd><a href="equation.html">The Value Equation</a></dd>
+							<dd class="redgradientover"><a href="lifecycle.html">The Customer Lifecycle</a></dd>
+						</dl>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		<div style="display:none;"><!-- Let's preload all those big, beautiful images. -->
+			<img src="_img/infinity_buy.png" alt="infinity_buy" width="1" height="1">
+			<img src="_img/infinity_maintain.png" alt="infinity_maintain" width="1" height="1">
+			<img src="_img/infinity_need.png" alt="infinity_need" width="1" height="1">
+			<img src="_img/infinity_receive.png" alt="infinity_receive" width="1" height="1">
+			<img src="_img/infinity_recommend.png" alt="infinity_recommend" width="1" height="1">
+			<img src="_img/infinity_research.png" alt="infinity_research" width="1" height="1">
+			<img src="_img/infinity_select.png" alt="infinity_select" width="1" height="1">
+			<img src="_img/infinity_use.png" alt="infinity_use" width="1" height="1">
+		</div>
+		<script src="js/jquery-1.8.0.min.js"></script>
+		<script src="js/footer.min.js"></script>
+		<script src="js/lepton.js"></script>
+		<script>
+			function onLoad() {
+				lepton = new Lepton(true,"0.867 0.867 0.867");
+				// Fade out and pause audio
+				lepton.audioVolume("bg", 0, 1);
+				setTimeout("lepton.audioPause('bg')", 1000);
+				lepton.audioVolume("voiceover", 0, 1);
+				setTimeout("lepton.audioPause('voiceover')", 1000);
+			}
+		</script>
+	</body>
+</html>
