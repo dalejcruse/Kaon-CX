@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Oracle CX World</title>
+		<meta name="description" content="">
+		<meta name="author" content="Dale Cruse, for Kaon Interactive">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="css/html5-doctor-reset-stylesheet.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bloops.css">
+	</head>
+	<body onload='onLoad()' >
+		<div id="body" class="indexDark">
+			<div class="main">
+				<h2 class="title"><span>One Globe City</span> District Stories</h2>
+				<div class="bloop one">
+					<img src="_img/bloopBlogger.png" alt="Blogger"> <b>Brad Miller</b><br />             
+					Listening to the Jackson 5 to get me in the mood to rock this presentation. Have a great day guys.
+				</div>
+				<div class="bloop two">
+					<img src="_img/bloopFacebook.png" alt="Facebook"> <b>Patty Brewer</b><br />             
+					The most important competition is the one with myself.
+				</div>
+				<div class="bloop three">
+					<img src="_img/bloopGoogle.png" alt="Google Plus"> <b>Dan Green</b><br />             
+					Moving to a new office today. WINDOWS!!
+				</div> 
+				<div class="bloop four">
+					<img src="_img/bloopLinkedIn.png" alt="LinkedIn"> <b>Mellisa Strickland</b><br />             
+					Book club tonight. Can I say the dog ate my book?
+				</div> 
+				<div class="bloop five">
+					<img src="_img/bloopTwitter.png" alt="Twitter"> <b>Lawrence Roe</b><br />             
+					Check out Mashable’s newest infographic – so cool. 
+				</div>
+			</div>
+			<footer>
+				<div class="footerSlider">
+					<div class="footerTitle">
+						<span class="storyNavigation">Story Navigation</span>
+						<span class="close">Close</span>
+					</div>
+					<nav>
+						<dl>
+							<dt>CX World</dt>
+							<dd><a href="index.html">Home</a></dd>
+						</dl>
+						<dl>
+							<dt>Oracle CX Story</dt>
+							<dd class="redgradientover"><a href="story.html">Watch the story unfold</a></dd>
+							<dd><a href="interact.html">Interact with the story</a></dd>
+						</dl>
+						<dl>
+							<dt>Oracle CX Value</dt>
+							<dd><a href="value.html">Overview</a></dd>
+							<dd><a href="equation.html">The Value Equation</a></dd>
+							<dd><a href="lifecycle.html">The Customer Lifecycle</a></dd>
+						</dl>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		<script src="js/jquery-1.8.0.min.js"></script>
+		<script src="js/footer.min.js"></script>
+		<script src="js/lepton.js"></script>
+		<script>
+			function onLoad() {
+				lepton = new Lepton(true,"0.867 0.867 0.867");
+				// Fade out bg then pause it
+				lepton.audioVolume("bg", 0, 1);
+				setTimeout("lepton.audioPause('bg')", 1000);
+				// Fade up voice over and start at the beginning
+				lepton.audioVolume("voiceover", 0, 0);
+				lepton.audioSeek("voiceover", 0, true);
+				lepton.audioVolume("voiceover", 1, 1);
+				setTimeout("location.href='meet.html'", 18000);
+			}
+		</script>
+	</body>
+</html>
