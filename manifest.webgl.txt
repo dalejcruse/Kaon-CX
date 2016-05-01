@@ -1,4 +1,4 @@
-_assets/bloops.html 6566b0c4610ed663939a3baf7a8f0839
+bloops.html 6566b0c4610ed663939a3baf7a8f0839
 _assets/dev-js-files/jquery.royalslider.js 1b28d22c14bb6f75b4f914ed793a5dcd
 _assets/dev-js-files/modules/jquery.rs.active-class.js a2198124cae4e551bb7a865cba01fa6e
 _assets/dev-js-files/modules/jquery.rs.animated-blocks.js bbf9eb8d9a48ac561436947486301b16
