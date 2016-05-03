@@ -1,7 +1,7 @@
 bloops.html 6566b0c4610ed663939a3baf7a8f0839
 jquery.royalslider.js 1b28d22c14bb6f75b4f914ed793a5dcd
 jquery.rs.active-class.js a2198124cae4e551bb7a865cba01fa6e
-_assets/dev-js-files/modules/jquery.rs.animated-blocks.js bbf9eb8d9a48ac561436947486301b16
+jquery.rs.animated-blocks.js bbf9eb8d9a48ac561436947486301b16
 _assets/dev-js-files/modules/jquery.rs.auto-height.js 5a540c8335000746c973926539520709
 _assets/dev-js-files/modules/jquery.rs.autoplay.js d3987cadb91a034fefaf1d6ade09b588
 _assets/dev-js-files/modules/jquery.rs.bullets.js 9d056e9451bf71c9c72e5bce05d64a11
