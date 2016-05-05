@@ -3,7 +3,7 @@ jquery.royalslider.js 1b28d22c14bb6f75b4f914ed793a5dcd
 jquery.rs.active-class.js a2198124cae4e551bb7a865cba01fa6e
 jquery.rs.animated-blocks.js bbf9eb8d9a48ac561436947486301b16
 jquery.rs.auto-height.js 5a540c8335000746c973926539520709
-_assets/dev-js-files/modules/jquery.rs.autoplay.js d3987cadb91a034fefaf1d6ade09b588
+jquery.rs.autoplay.js d3987cadb91a034fefaf1d6ade09b588
 _assets/dev-js-files/modules/jquery.rs.bullets.js 9d056e9451bf71c9c72e5bce05d64a11
 _assets/dev-js-files/modules/jquery.rs.deeplinking.js ff0eb838706cb26c0bdd5bf0bfb14067
 _assets/dev-js-files/modules/jquery.rs.fullscreen.js f442bc9ec3fddfdc857dd2b2400d3691
@@ -115,7 +115,7 @@ js/footer.min.js 0014e0c21089c8a9fa5dfeee031359bc
 js/jquery-1.8.0.min.js 077b5883c58688724b76a3ffe37f50d5
 js/jquery.royalslider.custom.min.js 790281cd483947607e48f3a2b7e14c07
 js/jquery.royalslider.js 1b28d22c14bb6f75b4f914ed793a5dcd
-js/jquery.rs.autoplay.js 7314c57113a3c5524a2da54d69c05906
+jquery.rs.autoplay.js 7314c57113a3c5524a2da54d69c05906
 js/lepton.js c71dce8ed776092ef6a115ff904c1e70
 js/lepton.min.js 90d9606b76471036b6291f7fb107b403
 js/sidebarToggle.js 98282cd618764f416d6957f8c926770e
