@@ -10,7 +10,7 @@ jquery.rs.fullscreen.js f442bc9ec3fddfdc857dd2b2400d3691
 jquery.rs.global-caption.js 7bee98a376d4e68434e2c096443742e0
 jquery.rs.nav-auto-hide.js f3377fce5b6b870058ef7ccac1ac557f
 jquery.rs.tabs.js cb87319aa523d491fd77fa0276dc4ac9
-_assets/dev-js-files/modules/jquery.rs.thumbnails.js 67bbb50befdcc4d1acaa65c4f835152f
+jquery.rs.thumbnails.js 67bbb50befdcc4d1acaa65c4f835152f
 _assets/dev-js-files/modules/jquery.rs.video.js cdc2725daf23aa03b4daa67f42c8878a
 _assets/wireframes/CX World wireframe with filenames.pdf 6411cbbff25866f9af6e3f0b081ff085
 _assets/wireframes/CX World wireframe.graffle 8c59f647ff317db056f0d37a430ba8fd
