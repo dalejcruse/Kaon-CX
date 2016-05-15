@@ -13,7 +13,7 @@ jquery.rs.tabs.js cb87319aa523d491fd77fa0276dc4ac9
 jquery.rs.thumbnails.js 67bbb50befdcc4d1acaa65c4f835152f
 jquery.rs.video.js cdc2725daf23aa03b4daa67f42c8878a
 CX World wireframe with filenames.pdf 6411cbbff25866f9af6e3f0b081ff085
-CX World wireframe.graffle 8c59f647ff317db056f0d37a430ba8fd
+CXWorldWireframe.graffle 8c59f647ff317db056f0d37a430ba8fd
 CX World wireframe.pdf 9b56690f1e27472d21bc44c8535a9a83
 _audio/bg.m4a 43c7d1238a0dc0d0f019e7db18346619
 _audio/new.m4a 28dba15fc9e904a14d87a47d56fa6785
