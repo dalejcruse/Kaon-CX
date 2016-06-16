@@ -45,7 +45,7 @@ animationRoutine.jpg c0d7740ee40bc621842da5a412bc6565
 animationSurprised.jpg cc38068c94e46d5898e95c1868e4408a
 animationTaken.jpg f4f674bcead9ec9e8ddad62fcb85abde
 animationUses.jpg 58f20441f67527d61239165928665db4
-_img/animationWay.jpg d6b44652352e339575d8b9fc6d72d71d
+animationWay.jpg d6b44652352e339575d8b9fc6d72d71d
 _img/bgBuy.jpg a1a4941c4abde0704a7e52caa2b09d79
 _img/bgMaintain.jpg 084ba181edacc959f88dcd3e95548cb5
 _img/bgNeed.jpg 1c87a4299ec1c76ff24ab8662a2156e9
