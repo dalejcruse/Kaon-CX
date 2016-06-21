@@ -49,7 +49,7 @@ animationWay.jpg d6b44652352e339575d8b9fc6d72d71d
 bgBuy.jpg a1a4941c4abde0704a7e52caa2b09d79
 bgMaintain.jpg 084ba181edacc959f88dcd3e95548cb5
 bgNeed.jpg 1c87a4299ec1c76ff24ab8662a2156e9
-_img/bgReceive.jpg 11f0de71667e91839080b6a927bb8ec6
+bgReceive.jpg 11f0de71667e91839080b6a927bb8ec6
 _img/bgRecommend.jpg aafccc9a53b427f3ddc0fa0185e4861c
 _img/bgResearch.jpg 7b2d1f1a4405151da9be5bad9a8730ca
 _img/bgSelect.jpg 5a88d461f4918e8593c0701eb5584fd5
