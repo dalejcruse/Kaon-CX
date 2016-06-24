@@ -52,7 +52,7 @@ bgNeed.jpg 1c87a4299ec1c76ff24ab8662a2156e9
 bgReceive.jpg 11f0de71667e91839080b6a927bb8ec6
 bgRecommend.jpg aafccc9a53b427f3ddc0fa0185e4861c
 bgResearch.jpg 7b2d1f1a4405151da9be5bad9a8730ca
-_img/bgSelect.jpg 5a88d461f4918e8593c0701eb5584fd5
+bgSelect.jpg 5a88d461f4918e8593c0701eb5584fd5
 _img/bgUse.jpg d5d3303afb6c1a7dead5f5b0876e055f
 _img/bloopBlogger.png b794d0e62878df276050f762c3aff928
 _img/bloopFacebook.png 4c70ce9f7c7f0b1eabf7b7acbcdda62c
