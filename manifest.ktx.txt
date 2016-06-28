@@ -56,7 +56,7 @@ bgSelect.jpg 5a88d461f4918e8593c0701eb5584fd5
 bgUse.jpg d5d3303afb6c1a7dead5f5b0876e055f
 bloopBlogger.png b794d0e62878df276050f762c3aff928
 bloopFacebook.png 4c70ce9f7c7f0b1eabf7b7acbcdda62c
-_img/bloopFacebook144.png fe00901030e186dde5fc63ede4eb63d7
+bloopFacebook144.png fe00901030e186dde5fc63ede4eb63d7
 _img/bloopGoogle.png 20cf75fffd0dbe9afce0f58f72bace9e
 _img/bloopLinkedIn.png 1097caf4044ee37ded387d21661d3df5
 _img/bloopTwitter.png 75f93f4be6ae72f44f6b9320b073f379
