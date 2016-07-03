@@ -8,8 +8,8 @@ $(document).ready(function(){
 	    $('<div class="summary">Hide Story View</div>').replaceAll('.story .summary');
 	    $(".story .summary").css({"color":"rgba(255, 0, 0, 0.9)"});
 	    $(".product .summary").css({"color":"rgba(67, 67, 67, 0.9)"});
-	    $(".product .summary").css({"background":"url(_img/buttonGrayPlusMinusSmaller.png) no-repeat left top"});
-	    $(".story .summary").css({"background":"url(_img/buttonGrayPlusMinusSmaller.png) no-repeat left bottom"});
+	    $(".product .summary").css({"background":"url(buttonGrayPlusMinusSmaller.png) no-repeat left top"});
+	    $(".story .summary").css({"background":"url(buttonGrayPlusMinusSmaller.png) no-repeat left bottom"});
 	};
 	var goStory =  function(){
 	    localStorage.infview=state="story";
@@ -19,8 +19,8 @@ $(document).ready(function(){
 	    $('<div class="summary">Hide Product View</div>').replaceAll('.product .summary');
 	    $(".story .summary").css({"color":"rgba(67, 67, 67, 0.9)"});
 	    $(".product .summary").css({"color":"rgba(255, 0, 0, 0.9)"});
-	    $(".product .summary").css({"background":"url(_img/buttonGrayPlusMinusSmaller.png) no-repeat left bottom"});
-	    $(".story .summary").css({"background":"url(_img/buttonGrayPlusMinusSmaller.png) no-repeat left top"});
+	    $(".product .summary").css({"background":"url(buttonGrayPlusMinusSmaller.png) no-repeat left bottom"});
+	    $(".story .summary").css({"background":"url(buttonGrayPlusMinusSmaller.png) no-repeat left top"});
 	};
 	var switchState = function(){
 	    if (state == "product")

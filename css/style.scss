@@ -620,7 +620,7 @@ h3 {
 		margin: $gridUnit 0;
 		padding-bottom: 9.4px;
 		.summary {
-			background: url(../_img/buttonGrayPlusMinusSmaller.png) no-repeat left top;
+			background: url(../buttonGrayPlusMinusSmaller.png) no-repeat left top;
 			cursor: pointer;
 			font-weight: bold;
 			padding-left: 24.6px;
@@ -646,7 +646,7 @@ h3 {
 		}
 	}
 	.product .summary {
-		background: url(../_img/buttonGrayPlusMinusSmaller.png) no-repeat left bottom;
+		background: url(../buttonGrayPlusMinusSmaller.png) no-repeat left bottom;
 		color: $red;
 	}
 } 
