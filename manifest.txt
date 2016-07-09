@@ -67,7 +67,7 @@ cityscape.jpg 93d09aa672e2d83dd3bf355aebb327ca
 cityscapeDark.jpg b68e6b74497163d6b7a8b4ec9b2235c6
 footerArrow.png a5b80a239965817ed917ef5fa122ff1e
 footerLogo.png 0d65ed4d10f5038c16e4b835702cc302
-_img/footerNavArrowDown.png f89b688988b4f15923bc4945bf53b7bd
+footerNavArrowDown.png f89b688988b4f15923bc4945bf53b7bd
 _img/footerNavArrowUp.png 4911c19a265d01fd075625c3367496d6
 _img/infinity.png 5223d957af6c5167cbadc5e86002d4d6
 _img/infinity_buy.png 335921a8100535a98f29349878cd1a43
