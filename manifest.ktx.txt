@@ -86,7 +86,7 @@ infinity_select.png fb5b1be44f66eb6d981b228e01388294
 infinity_select_story.jpg 91f62a4dec23ab37ba5166b2290b1c22
 infinity_use.png 65ee4ac4adabdc34b5180c6cf2f2c886
 infinity_use_story.jpg ea5879de24f95e0308b0d335dec74514
-_img/move_bg.jpg 62a35855a2de0ee49e91a3448dd762e1
+move_bg.jpg 62a35855a2de0ee49e91a3448dd762e1
 _img/plus.png 73516f60edb57f7e2b11e6823f7e6736
 _img/scape.jpg a7b0bced9d8eab1b6e00083aca6a0f73
 _img/sidebarNeed.jpg f304c53d9e074d5ee94e75f90332c22e
