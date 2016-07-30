@@ -88,7 +88,7 @@ infinity_use.png 65ee4ac4adabdc34b5180c6cf2f2c886
 infinity_use_story.jpg ea5879de24f95e0308b0d335dec74514
 move_bg.jpg 62a35855a2de0ee49e91a3448dd762e1
 plus.png 73516f60edb57f7e2b11e6823f7e6736
-_img/scape.jpg a7b0bced9d8eab1b6e00083aca6a0f73
+scape.jpg a7b0bced9d8eab1b6e00083aca6a0f73
 _img/sidebarNeed.jpg f304c53d9e074d5ee94e75f90332c22e
 _img/sidebarShop.jpg e6fc7cb20e58d2482569215c8cd7051b
 _img/sidebarWork.jpg ce93d4f75991af5103642618aaa6d8a5
