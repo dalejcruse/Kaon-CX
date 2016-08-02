@@ -91,7 +91,7 @@ plus.png 73516f60edb57f7e2b11e6823f7e6736
 scape.jpg a7b0bced9d8eab1b6e00083aca6a0f73
 sidebarNeed.jpg f304c53d9e074d5ee94e75f90332c22e
 sidebarShop.jpg e6fc7cb20e58d2482569215c8cd7051b
-_img/sidebarWork.jpg ce93d4f75991af5103642618aaa6d8a5
+sidebarWork.jpg ce93d4f75991af5103642618aaa6d8a5
 acquisition.html 2ac2bcbeddb3e268284137f68610576b
 build.command 4402f4b820b3ef592cf47ddc8387e287
 css/bloops.css f13b8948a7c99b975a4a3d30e8c27fea
