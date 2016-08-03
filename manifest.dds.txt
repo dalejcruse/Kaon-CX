@@ -94,7 +94,7 @@ sidebarShop.jpg e6fc7cb20e58d2482569215c8cd7051b
 sidebarWork.jpg ce93d4f75991af5103642618aaa6d8a5
 acquisition.html 2ac2bcbeddb3e268284137f68610576b
 build.command 4402f4b820b3ef592cf47ddc8387e287
-css/bloops.css f13b8948a7c99b975a4a3d30e8c27fea
+bloops.css f13b8948a7c99b975a4a3d30e8c27fea
 css/bloops.scss 61557a8d2a6930168a270810ef580738
 css/bloopsValue.css 682ca9ac098476336c178d73c003168f
 css/bloopsValue.scss a6d13f143b9628a36787ec1eaaad702f
