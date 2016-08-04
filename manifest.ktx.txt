@@ -95,7 +95,7 @@ sidebarWork.jpg ce93d4f75991af5103642618aaa6d8a5
 acquisition.html 2ac2bcbeddb3e268284137f68610576b
 build.command 4402f4b820b3ef592cf47ddc8387e287
 bloops.css f13b8948a7c99b975a4a3d30e8c27fea
-css/bloops.scss 61557a8d2a6930168a270810ef580738
+bloops.scss 61557a8d2a6930168a270810ef580738
 css/bloopsValue.css 682ca9ac098476336c178d73c003168f
 css/bloopsValue.scss a6d13f143b9628a36787ec1eaaad702f
 css/html5-doctor-reset-stylesheet.css 4c301a7e5dc4cfe60215676b748338f9
