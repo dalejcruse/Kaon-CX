@@ -110,7 +110,7 @@ index.html c33870098eb582668ed0900941e14116
 interact.html 8fb154b7d097339deb6bfcd3714942d8
 addJS.js ce67505f979c94e4324e30f0892e46a4
 addJS.min.js 3e2d67585a5cc95badb381f7ccda6442
-js/footer.js 1ef65c0e12f4f85a81238aa4191bd382
+footer.js 1ef65c0e12f4f85a81238aa4191bd382
 js/footer.min.js 0014e0c21089c8a9fa5dfeee031359bc
 js/jquery-1.8.0.min.js 077b5883c58688724b76a3ffe37f50d5
 js/jquery.royalslider.custom.min.js 790281cd483947607e48f3a2b7e14c07
