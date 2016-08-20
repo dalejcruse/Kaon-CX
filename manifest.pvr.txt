@@ -117,7 +117,7 @@ jquery.royalslider.custom.min.js 790281cd483947607e48f3a2b7e14c07
 jquery.royalslider.js 1b28d22c14bb6f75b4f914ed793a5dcd
 jquery.rs.autoplay.js 7314c57113a3c5524a2da54d69c05906
 lepton.js c71dce8ed776092ef6a115ff904c1e70
-js/lepton.min.js 90d9606b76471036b6291f7fb107b403
+lepton.min.js 90d9606b76471036b6291f7fb107b403
 js/sidebarToggle.js 98282cd618764f416d6957f8c926770e
 js/sidebarToggle.min.js 15f7bfc8fd505ba035f4d68f290eda45
 js/storyMap.js ccc03693ebfaec37034de80d487f57e0
