@@ -119,7 +119,7 @@ jquery.rs.autoplay.js 7314c57113a3c5524a2da54d69c05906
 lepton.js c71dce8ed776092ef6a115ff904c1e70
 lepton.min.js 90d9606b76471036b6291f7fb107b403
 sidebarToggle.js 98282cd618764f416d6957f8c926770e
-js/sidebarToggle.min.js 15f7bfc8fd505ba035f4d68f290eda45
+sidebarToggle.min.js 15f7bfc8fd505ba035f4d68f290eda45
 js/storyMap.js ccc03693ebfaec37034de80d487f57e0
 js/storyMap.min.js 124408b9bfc36c08e375a456722afefc
 js/valueToggle.js 32587947492e080f3465de4f8d9ee36f
