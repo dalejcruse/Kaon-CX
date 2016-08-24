@@ -121,7 +121,7 @@ lepton.min.js 90d9606b76471036b6291f7fb107b403
 sidebarToggle.js 98282cd618764f416d6957f8c926770e
 sidebarToggle.min.js 15f7bfc8fd505ba035f4d68f290eda45
 storyMap.js ccc03693ebfaec37034de80d487f57e0
-js/storyMap.min.js 124408b9bfc36c08e375a456722afefc
+storyMap.min.js 124408b9bfc36c08e375a456722afefc
 js/valueToggle.js 32587947492e080f3465de4f8d9ee36f
 js/valueToggle.min.js e7e28d3d44970287c94e92d0ba96ee49
 lifecycle.html 9e6a685f3a9bc5a235b8fa3d34ef765d
